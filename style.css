@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* すべてのページに適用 */
+html {
+    font-family: sans-serif;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 0 0 0;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 800px;  /* 960px; */
+}
+
+h2 {
+    color: #00008b;
+    font-size: 30px;
+    border-bottom: 1px solid #d0d0d0;
+    margin: 40px 0 40px 0;
+    padding: 5px 5px 5px 5px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.6;
+    /* <p>〜</p>に含まれるテキストの行間を調整 */
+}
+
+a:link {
+    /* 通常時 */
+    color: #00008b;
+}
+
+a:visited {
+    color: #3a3a9e;
+}
+
+a:hover {
+    color: #6262a8;
+}
+
+a:active {
+    /* マウスボタンが押されている */
+    color: #00afcc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.itemization {
+    margin: 70px 0px 70px 0px;
+}
+
+.itemizations {
+    margin-left: 20px;
+}
+
+header {
+    height: 100px;
+}
+
+.top-name {
+    text-align: center;
+    line-height: 100px;
+    color: #00008b;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffffe9;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.github-icon {
+    position: fixed;
+    top: 25px;
+    left: 90%;
+}
+
+.index-page {
+    text-align: center;
+    padding: 120px 0 20px 0;
+}
+
+.github-icon {
+    transition: all 0.5s ease 0s;
+}
+
+.github-icon:hover {
+    fill: #1f1f5d72;
+}
+
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #00008b;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #1f1f5d72;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+a.link {
+    padding-right: 20px;
+    background: url(./images/link.png) no-repeat right center;
+    background-size: 1em;
+}
+
+.about-me-intro {
+    margin-bottom: 50px;
+}
+
+.first-itemization {
+    margin-top: 0;
+}
+
+.last-itemization {
+    margin-bottom: 100px;
+}
