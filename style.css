@@ -87,7 +87,7 @@ header {
 .github-icon {
     position: fixed;
     top: 25px;
-    left: 90%;
+    left: 92%;
 }
 
 .index-page {
@@ -152,4 +152,22 @@ a.link {
 
 .last-itemization {
     margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .github-icon {
+        position: fixed;
+        top: 25px;
+        left: 82%;
+    }
+    
+    img {
+        max-width: 290px;
+        height: auto;
+    }
+
+    iframe {
+        max-width: 280px;
+        height: auto;
+    }
 }
